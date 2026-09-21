@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIPT - Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+            background: #000;
+            color: #f5f5f7;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            background: linear-gradient(135deg, #FF6B35, #FF9F1C);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tagline {
+            font-size: 18px;
+            color: #86868b;
+            margin-bottom: 48px;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 48px;
+            margin-bottom: 16px;
+        }
+        p, li {
+            font-size: 16px;
+            color: #d2d2d7;
+            margin-bottom: 12px;
+        }
+        a {
+            color: #FF6B35;
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        .card {
+            background: #1d1d1f;
+            border-radius: 16px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+        .card h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        .card p {
+            margin-bottom: 0;
+            color: #a1a1a6;
+        }
+        .contact-email {
+            font-size: 20px;
+            color: #FF6B35;
+            font-weight: 600;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "•";
+            color: #FF6B35;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .footer {
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid #333;
+            color: #86868b;
+            font-size: 14px;
+        }
+        .privacy-section {
+            margin-top: 48px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🏋️</div>
+        <h1>AIPT</h1>
+        <p class="tagline">AI Personal Trainer — Let AI plan, you train.</p>
+
+        <h2>Support</h2>
+        <p>Need help with AIPT? We're here for you.</p>
+
+        <div class="card">
+            <h3>📧 Contact Us</h3>
+            <p>For technical support, bug reports, or feature requests:</p>
+            <br>
+            <a class="contact-email" href="mailto:aipt.app.support@gmail.com">aipt.app.support@gmail.com</a>
+        </div>
+
+        <h2>FAQ</h2>
+
+        <div class="card">
+            <h3>How does AIPT work?</h3>
+            <p>AIPT provides an API that any AI agent (ChatGPT, Claude, etc.) can use to create personalized training plans. The app handles workout execution, timing, and tracking — while AI handles the planning.</p>
+        </div>
+
+        <div class="card">
+            <h3>Do I need an account?</h3>
+            <p>No. AIPT works entirely on-device. All your training data is stored locally on your iPhone. No registration or cloud account required.</p>
+        </div>
+
+        <div class="card">
+            <h3>Does Apple Watch work without iPhone?</h3>
+            <p>Currently, Apple Watch acts as a companion to your iPhone. It needs to be paired with an iPhone running AIPT to display and control workouts.</p>
+        </div>
+
+        <div class="card">
+            <h3>Which AI agents are supported?</h3>
+            <p>Any AI agent that can make HTTP API calls — including ChatGPT (via Actions/GPTs), Claude (via MCP/tools), custom bots, and more. AIPT provides a local API endpoint for plan submission.</p>
+        </div>
+
+        <div class="card">
+            <h3>What languages are supported?</h3>
+            <p>AIPT supports 17 languages: English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, Deutsch, Italiano, Português (BR), Русский, العربية, Čeština, Magyar, Polski, Türkçe, Español (Latinoamérica).</p>
+        </div>
+
+        <div class="privacy-section">
+            <h2>Privacy Policy</h2>
+            <p>AIPT respects your privacy. Here's what you need to know:</p>
+            <ul>
+                <li>All training data is stored locally on your device</li>
+                <li>No user accounts or cloud storage required</li>
+                <li>Health data (weight, height, heart rate) is accessed through Apple HealthKit with your explicit permission</li>
+                <li>AIPT does not collect, transmit, or share any personal data</li>
+                <li>The local API server only accepts connections from your device's network</li>
+                <li>No analytics or tracking SDKs are included</li>
+            </ul>
+            <p>Your data stays on your device. Period.</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024-2026 AIPT. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
